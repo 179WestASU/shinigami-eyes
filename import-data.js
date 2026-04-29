@@ -12,5 +12,5 @@ function importFile(txt, name) {
     fs.writeFileSync("extension/data/" + name + ".dat", new Buffer(bucketsAsBytes));
 }
 
-importFile("C:\\ML\\facebook\\transphobic.txt", "transphobic");
-importFile("C:\\ML\\facebook\\t-friendly.txt", "t-friendly");
+importFile("C:\\ML\\facebook\\transphobic.txt", "t-friendly");
+importFile("C:\\ML\\facebook\\t-friendly.txt", "transphobic");
